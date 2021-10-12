@@ -1,6 +1,6 @@
-87695cf5267d6622fb0035452bf01557 *DESCRIPTION
-259fd2c783b0f6b40885cd2db99ecd68 *NAMESPACE
-f9d4901060a19bdc7d0a8c641bee5220 *NEWS.md
+672eadcacad15ab28890240f6c8e3ae8 *DESCRIPTION
+b0589d7f3f525201347e119e846c0683 *NAMESPACE
+c0d314801efa2b8323ea25c47dcf9e35 *NEWS.md
 f8f2cb19a583d0d3c266aeb2b733820b *R/PPpSceptical.R
 91ac845aa92f168592377d32b04c75d8 *R/Qtest.R
 822dd8e84c1878042b9625a65c247c6c *R/T1EpSceptical.R
@@ -8,7 +8,7 @@ f8f2cb19a583d0d3c266aeb2b733820b *R/PPpSceptical.R
 71a5a3a7fbe7b78a14beb929d349448f *R/datasets.R
 4ea2cc71612a0255aaed438d28d607be *R/effectSizeReplicationSuccess.R
 1d466b4e8870f301421846c8f647fb82 *R/effectSizeSignificance.R
-b6b535693e11ba936fe62c427d4e03f8 *R/hMeanChiSq.R
+e5af05812d335a86d96ff754da996770 *R/hMeanChiSq.R
 d531c25296b65c89375c0c3ec018828b *R/levelEquivalent.R
 d755ff8d386da05b6cafd7e263563cb4 *R/levelSceptical.R
 50d4618a230d59684d11b105cd930821 *R/pBox.R
@@ -23,15 +23,15 @@ a655e02f308e3805d687e839779a9125 *R/powerSignificanceInterim.R
 0538d530c6b8cce5f9d37d840ae0659f *R/sampleSizeReplicationSuccess.R
 6c9d196b9ccfc6aa2b8b9f57c6b8d658 *R/sampleSizeSignificance.R
 360d306b8931c9d14d384502aa4881fe *R/thresholdIntrinsic.R
-5a7d2469b1ac64dcef69b5910f1f438a *README.md
-c864753649fbf4d611c7718de16338a7 *build/partial.rdb
-11ab7109f51931f2a2f79bd8ad8f2d25 *build/vignette.rds
+a7d8aca3d9d105af5cd49c6ec17f88aa *README.md
+b56a932828b4104ffb04864e49a2e26e *build/partial.rdb
+18ee415405f0ed7f459e19e2b61136b5 *build/vignette.rds
 1bb28235cba29933f5a0718434d0b110 *data/RProjects.rda
 ccdddab77993990df7c2b9855f5e7188 *data/SSRP.rda
 87b1f4b4f2a5978276e67dbec5851789 *inst/CITATION
 65e76fbbab0eaf3974d477144ad907f1 *inst/doc/ReplicationSuccess.R
-0f8cf0973fbce5165255d9017b715f5f *inst/doc/ReplicationSuccess.Rnw
-98d7df65e6cbdc4498119fd4587aae8c *inst/doc/ReplicationSuccess.pdf
+5503d38f5d29d684dc17b38abc63ac53 *inst/doc/ReplicationSuccess.Rnw
+40f75e1279c1c406dffe2ab5be2b1fcc *inst/doc/ReplicationSuccess.pdf
 0dfb211c51b2b5529585f4d84baec444 *man/PPpSceptical.Rd
 aced9a0248e9e10cdd819584183cb99d *man/Qtest.Rd
 856cb89aa0c272ab73d1291f50c35fcc *man/RProjects.Rd
@@ -40,7 +40,7 @@ aced9a0248e9e10cdd819584183cb99d *man/Qtest.Rd
 ad1d8034d392be667c5e9e0ff323ad6e *man/conversionHelpers.Rd
 9ff2b0d12cb2e4ae98c5bd17b4080f1e *man/effectSizeReplicationSuccess.Rd
 67afa0ca5fd473774fdc118ddabaa3f0 *man/effectSizeSignificance.Rd
-915c36a33f4f380d32994576d65c5d71 *man/hMeanChiSq.Rd
+6ce40e464dec001391eaa24d0156e844 *man/hMeanChiSq.Rd
 018e2e8be869c6ed81e14bdb0f2e5f33 *man/levelEquivalent.Rd
 6352f1843c8965af4af1d21ec70c5b27 *man/levelSceptical.Rd
 9c5f34fe37b30c4e7664e92e5e990df4 *man/pBox.Rd
@@ -55,6 +55,7 @@ e8489171a7265b4e14c044d2a5fe116b *man/predictionInterval.Rd
 8bc300c65b2ebe66a79cc6fffa7803ff *man/sampleSizeReplicationSuccess.Rd
 ffc4a1c14ea95083c713d935b69742c1 *man/sampleSizeSignificance.Rd
 9096c743497ae8ae2b5ae57ebeff6128 *man/thresholdIntrinsic.Rd
+82a5a85e3f70f4481fc38a80eaa5612e *man/unirootAll.Rd
 469793def24c45baffecbc275e34dde6 *tests/run-all.R
 0b009949f6ab2f28cb57e139a58f0005 *tests/testthat/test-pSceptical.R
 b4a7a3cee3adef416477b3cfbc0f8988 *tests/testthat/test-powerReplicationSuccess.R
@@ -62,7 +63,7 @@ d400e7bc6f91a9074498315c082e3812 *tests/testthat/test-powerSignificance.R
 c71b7b8fa639e1e45f389dba64b04e6b *tests/testthat/test-predictionInterval.R
 b23ec63c11555c1de0a1fd8739f3106b *tests/testthat/test-sampleSizeReplicationSuccess.R
 c94f8c9e0df105e72f7bdec30f949b18 *tests/testthat/test-sampleSizeSignificance.R
-0f8cf0973fbce5165255d9017b715f5f *vignettes/ReplicationSuccess.Rnw
+5503d38f5d29d684dc17b38abc63ac53 *vignettes/ReplicationSuccess.Rnw
 ac653e4ee25ab89e314f56fb04ddacb5 *vignettes/apalikedoiurl.bst
 df2fdc44a1e8e0ba4f09406245eb618a *vignettes/bibliography.bib
 15f384738607472a833c7a9fd7d513be *vignettes/newCommands.tex
