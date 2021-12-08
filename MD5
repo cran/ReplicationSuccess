@@ -1,6 +1,6 @@
-672eadcacad15ab28890240f6c8e3ae8 *DESCRIPTION
+a51429e8af67ea4461cf15ccbf43e1aa *DESCRIPTION
 b0589d7f3f525201347e119e846c0683 *NAMESPACE
-c0d314801efa2b8323ea25c47dcf9e35 *NEWS.md
+006a884f17df6ed9d53be0c03377fe5b *NEWS.md
 f8f2cb19a583d0d3c266aeb2b733820b *R/PPpSceptical.R
 91ac845aa92f168592377d32b04c75d8 *R/Qtest.R
 822dd8e84c1878042b9625a65c247c6c *R/T1EpSceptical.R
@@ -24,14 +24,14 @@ a655e02f308e3805d687e839779a9125 *R/powerSignificanceInterim.R
 6c9d196b9ccfc6aa2b8b9f57c6b8d658 *R/sampleSizeSignificance.R
 360d306b8931c9d14d384502aa4881fe *R/thresholdIntrinsic.R
 a7d8aca3d9d105af5cd49c6ec17f88aa *README.md
-b56a932828b4104ffb04864e49a2e26e *build/partial.rdb
-18ee415405f0ed7f459e19e2b61136b5 *build/vignette.rds
+4defdea162e900cbd528b86abc0adfe5 *build/partial.rdb
+e28fc30456fa4d22354d9209da8e57cf *build/vignette.rds
 1bb28235cba29933f5a0718434d0b110 *data/RProjects.rda
 ccdddab77993990df7c2b9855f5e7188 *data/SSRP.rda
 87b1f4b4f2a5978276e67dbec5851789 *inst/CITATION
-65e76fbbab0eaf3974d477144ad907f1 *inst/doc/ReplicationSuccess.R
-5503d38f5d29d684dc17b38abc63ac53 *inst/doc/ReplicationSuccess.Rnw
-40f75e1279c1c406dffe2ab5be2b1fcc *inst/doc/ReplicationSuccess.pdf
+c69ff8691e72ecca6b5e696d29530e84 *inst/doc/ReplicationSuccess.R
+8f319418d9e942c911559ee13628c111 *inst/doc/ReplicationSuccess.Rnw
+a8dfdf25ca998482e8c916da744e447e *inst/doc/ReplicationSuccess.pdf
 0dfb211c51b2b5529585f4d84baec444 *man/PPpSceptical.Rd
 aced9a0248e9e10cdd819584183cb99d *man/Qtest.Rd
 856cb89aa0c272ab73d1291f50c35fcc *man/RProjects.Rd
@@ -63,7 +63,6 @@ d400e7bc6f91a9074498315c082e3812 *tests/testthat/test-powerSignificance.R
 c71b7b8fa639e1e45f389dba64b04e6b *tests/testthat/test-predictionInterval.R
 b23ec63c11555c1de0a1fd8739f3106b *tests/testthat/test-sampleSizeReplicationSuccess.R
 c94f8c9e0df105e72f7bdec30f949b18 *tests/testthat/test-sampleSizeSignificance.R
-5503d38f5d29d684dc17b38abc63ac53 *vignettes/ReplicationSuccess.Rnw
+8f319418d9e942c911559ee13628c111 *vignettes/ReplicationSuccess.Rnw
 ac653e4ee25ab89e314f56fb04ddacb5 *vignettes/apalikedoiurl.bst
 df2fdc44a1e8e0ba4f09406245eb618a *vignettes/bibliography.bib
-15f384738607472a833c7a9fd7d513be *vignettes/newCommands.tex

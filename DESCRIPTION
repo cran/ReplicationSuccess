@@ -1,8 +1,8 @@
 Package: ReplicationSuccess
 Type: Package
 Title: Design and Analysis of Replication Studies
-Version: 1.1.0
-Date: 2021-10-12
+Version: 1.1.1
+Date: 2021-12-08
 Authors@R: 
     c(person(given = "Leonhard",
              family = "Held",
@@ -39,11 +39,11 @@ License: GPL (>= 2)
 LazyData: true
 NeedsCompilation: no
 RoxygenNote: 7.1.1
-Packaged: 2021-10-12 09:37:41 UTC; sam
+Packaged: 2021-12-08 10:33:07 UTC; sam
 Author: Leonhard Held [aut] (<https://orcid.org/0000-0002-8686-5325>),
   Samuel Pawel [cre, aut] (<https://orcid.org/0000-0003-2779-320X>),
   Charlotte Micheloud [aut] (<https://orcid.org/0000-0002-4995-4505>),
   Florian Gerber [aut] (<https://orcid.org/0000-0001-8545-5263>)
 Maintainer: Samuel Pawel <samuel.pawel@uzh.ch>
 Repository: CRAN
-Date/Publication: 2021-10-12 12:20:02 UTC
+Date/Publication: 2021-12-08 12:40:06 UTC

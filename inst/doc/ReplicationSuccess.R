@@ -322,13 +322,14 @@ axis(side = 3, at = seq(0.0, 0.025, by = 0.005),
      labels = c("", round(p2z(p = seq(0.005, 0.025, by = 0.005), 
                               alternative = "one.sided"), 2)))
 mtext(text = expression(paste(italic(z)[o])), side = 3, line = 2)
-lines(po, sampleSizeReplicationSuccess(zo = p2z(po, alternative = "one.sided"), 
-                                  power = 0.8,
-                                  level = 0.025,
-                                  designPrior = "predictive",
-                                  alternative = "one.sided", 
-                                  type = "golden"), 
-      lwd = 2, lty = 2)
+suppressWarnings({
+    lines(po, sampleSizeReplicationSuccess(zo = p2z(po, alternative = "one.sided"),
+                                           power = 0.8, level = 0.025,
+                                           designPrior = "predictive",
+                                           alternative = "one.sided",
+                                           type = "golden"),
+          lwd = 2, lty = 2)
+})
 legend("topleft", legend = c("conditional", "predictive"), 
        title = "Design prior", lty = c(1, 2), lwd = 1.5, bty = "n")
 
