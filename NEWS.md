@@ -1,3 +1,9 @@
+# ReplicationSuccess 1.2
+
+- New data set `protzko2020` 
+- fixed a bug in the error message of `effectSizeReplicationSuccess`
+- Added license information and improved documentation of data set `RProjects`
+
 # ReplicationSuccess 1.1.1
 
 - Fixed a bug that prevented vignette building on R devel with updated texlive
@@ -5,8 +11,8 @@
 # ReplicationSuccess 1.1.0
 
 - New maintainer Samuel Pawel
-- bugfixes hMeanChiSqMu
-- replace rootSolve::uniroot.all with custom function
+- bugfixes `hMeanChiSqMu`
+- replace rootSolve::uniroot.all with custom function `unirootAll`
 
 # ReplicationSuccess 1.0
 
