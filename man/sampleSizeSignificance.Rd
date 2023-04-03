@@ -3,12 +3,11 @@
 \name{sampleSizeSignificance}
 \alias{sampleSizeSignificance}
 \title{Computes the required relative sample size to achieve significance
-based on power or on the minimum relative effect size}
+based on power}
 \usage{
 sampleSizeSignificance(
   zo,
   power = NA,
-  d = NA,
   level = 0.025,
   alternative = c("one.sided", "two.sided"),
   designPrior = c("conditional", "predictive", "EB"),
@@ -21,14 +20,13 @@ sampleSizeSignificance(
 
 \item{power}{The power to achieve replication success.}
 
-\item{d}{The minimum relative effect size (ratio of the effect estimate from
-the replication study to the effect estimate from the original study).}
-
 \item{level}{Significance level. Default is 0.025.}
 
-\item{alternative}{Either "one.sided" (default) or "two.sided". Specifies
-direction of the alternative. "one.sided" assumes an effect in the same
-direction as the original estimate.}
+\item{alternative}{Either "one.sided" (default) or "two.sided".
+Specifies if the significance level is one-sided or two-sided.
+If the significance level is one-sided, then sample size calculations are based on a
+one-sided assessment of significance in the direction of the
+original effect estimate.}
 
 \item{designPrior}{Is only taken into account when \code{power} is specified.
 Either "conditional" (default), "predictive", or "EB". If "EB", the power
@@ -56,9 +54,7 @@ The relative sample size to achieve significance in the specified
 \description{
 The relative sample size to achieve significance of the replication study is
 computed based on the z-value of the original study, the significance level
-and either the power or the minimum relative effect size. When the approach
-based on power is used, the arguments design prior, shrinkage, and relative
-heterogeneity also have to be specified.
+and the power.
 }
 \details{
 \code{sampleSizeSignificance} is the vectorized version of
@@ -87,13 +83,6 @@ lines(z2p(zo), sampleSizeSignificance(zo = zo, designPrior = "EB", power = 0.8),
 legend("topleft", legend = c("conditional", "predictive", "EB"),
        title = "Design prior", lty = c(1, 2, 3), lwd = 1.5, bty = "n")
 
-sampleSizeSignificance(zo = p2z(0.005), d = 1)
-sampleSizeSignificance(zo = p2z(0.005), d = 0.5)
-# sample size based on minimum relative effect size of 0.8
-zo <- p2z(seq(0.0001, 0.05, 0.0001))
-plot(z2p(zo), sampleSizeSignificance(zo = zo, d = 0.8, level = 0.025),
-     type = "l", ylim = c(0.5, 10), log = "y", lwd = 1.5, ylab = "Relative sample size",
-    xlab = expression(italic(p)[o]), las = 1)
 par(oldPar)
 }
 \references{
@@ -105,8 +94,12 @@ Series A (Statistics in Society)}, \bold{183}, 431-448.
 Pawel, S., Held, L. (2020). Probabilistic forecasting of replication studies.
 \emph{PLoS ONE}. \bold{15}, e0231416. \doi{10.1371/journal.pone.0231416}
 
-Held, L., Micheloud, C., Pawel, S. (2021). The assessment of replication
-success based on relative effect size. \url{https://arxiv.org/abs/2009.07782}
+Held, L., Micheloud, C., Pawel, S. (2022). The assessment of replication
+    success based on relative effect size. The Annals of Applied Statistics.
+    16:706-720. \doi{10.1214/21-AOAS1502}
+
+Micheloud, C., Held, L. (2022). Power Calculations for Replication Studies.
+ Statistical Science. 37:369-379. \doi{10.1214/21-STS828}
 }
 \seealso{
 \code{\link{powerSignificance}}

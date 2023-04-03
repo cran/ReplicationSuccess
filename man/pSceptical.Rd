@@ -10,7 +10,7 @@ pSceptical(
   zr,
   c,
   alternative = c("one.sided", "two.sided"),
-  type = c("golden", "nominal", "liberal", "controlled")
+  type = c("golden", "nominal", "controlled")
 )
 
 zSceptical(zo, zr, c)
@@ -33,12 +33,16 @@ assessment of replication success regardless of the direction of the
 original and replication effect estimate.}
 
 \item{type}{Type of recalibration. Can be either "golden" (default), "nominal",
-"liberal", or "controlled". Setting \code{type} to "nominal" corresponds to no
+or "controlled". Setting \code{type} to "nominal" corresponds to no
 recalibration as in Held et al. (2020). A recalibration is applied if
-\code{type} is "liberal", "controlled", or "golden", and the sceptical p-value
+\code{type} is  "controlled", or "golden", and the sceptical p-value
 can then be interpreted on the same scale as an ordinary p-value (e.g., a one-sided
 sceptical p-value can be thresholded at the conventional 0.025 level).
-See \code{\link{levelSceptical}} for details about recalibration types.}
+"golden" ensures that
+for an original study just significant at the specified \code{level},
+replication success is only possible if the replication effect estimate is at
+least as large as the original one.
+"controlled" ensures exact overall Type-I error control at level \code{level}^2.}
 }
 \value{
 \code{pSceptical} returns the sceptical p-value.
@@ -47,11 +51,12 @@ See \code{\link{levelSceptical}} for details about recalibration types.}
 }
 \description{
 Computes sceptical p-values and z-values based on the z-values of the
-original and the replication study and the corresponding variance ratio.
-If specified, the p-values are recalibrated.
+original and the replication study and the corresponding variance ratios.
+If specified, the sceptical p-values are recalibrated.
 }
 \details{
-\code{pSceptical} is the vectorized version of \code{.pSceptical_}.
+\code{pSceptical} is the vectorized version of
+the internal function \code{.pSceptical_}.
 \code{\link[base]{Vectorize}} is used to vectorize the function.
 }
 \examples{
@@ -79,8 +84,14 @@ studies (with discussion). \emph{Journal of the Royal Statistical Society:
 Series A (Statistics in Society)}, \bold{183}, 431-448.
 \doi{10.1111/rssa.12493}
 
-Held, L., Micheloud, C., Pawel, S. (2021). The assessment of replication success
-based on relative effect size. \url{https://arxiv.org/abs/2009.07782}
+
+Held, L., Micheloud, C., Pawel, S. (2022). The assessment of replication
+    success based on relative effect size. The Annals of Applied Statistics.
+    16:706-720. \doi{10.1214/21-AOAS1502}
+
+Micheloud, C., Balabdaoui, F., Held, L. (2023).
+Beyond the two-trials rule: Type-I error control and sample size planning
+with the sceptical p-value. \url{https://arxiv.org/abs/2207.00464}
 }
 \seealso{
 \code{\link{sampleSizeReplicationSuccess}}, \code{\link{powerReplicationSuccess}}, \code{\link{levelSceptical}}

@@ -1,14 +1,14 @@
 citHeader(paste("To cite the R-package 'ReplicationSuccess' in publications,",
                 "please use:"))
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "A new standard for the analysis and design of replication studies (with discussion)",
          author = c(person(given = "Leonhard", family = "Held", role = "aut")),
          doi = "10.1111/rssa.12493",
          journal = "Journal of the Royal Statistical Society, Series A (Statistics in Society)",  
          volume = "183",
          number = "2",
-         pages = "431-448",
+         pages = "431--448",
          year = 2020,
          textVersion = paste("Held, L. (2020).",
                              "A new standard for the analysis and design of replication studies (with discussion).",
@@ -18,14 +18,14 @@ citEntry(entry = "article",
                              ))
 
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "The harmonic mean chi-squared test to substantiate scientific findings",
          author = c(person(given = "Leonhard", family = "Held", role = "aut")),
          doi = "10.1111/rssc.12410",
          journal = "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
          volume = "69",
          number = "3",
-         pages = "697-708",
+         pages = "697--708",
          year = 2020,
          textVersion = paste("Held, L. (2020).",
                              "The harmonic mean chi-squared test to substantiate scientific findings.",
@@ -35,7 +35,7 @@ citEntry(entry = "article",
                              ))
 
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "Probabilistic forecasting of replication studies",
          author = c(person(given = "Samuel", family = "Pawel", role = "aut"),
                     person(given = "Leonhard", family = "Held", role = "aut")),
@@ -53,39 +53,43 @@ citEntry(entry = "article",
                              ))
 
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "The assessment of replication success based on relative effect size",
          author = c(person(given = "Leonhard", family = "Held", role = "aut"),
                     person(given = "Charlotte", family = "Micheloud", role = "aut"),
                     person(given = "Samuel", family = "Pawel", role = "aut")),
-         url = "https://arxiv.org/abs/2009.07782",
+         url = "https://doi.org/10.1214/21-AOAS1502",
          journal = "The Annals of Applied Statistics",
-         note = "to appear",
+         volume = "16",
+         number = "2",
+         pages = "706--720",
          year = 2021,
          textVersion = paste("Held, L., Micheloud, C., Pawel, S. (2021).",
                              "The assessment of replication success based on relative effect size.",
                              "The Annals of Applied Statistics.",
-                             "to appear.",
-                             "https://arxiv.org/abs/2009.07782"
+                             "16:706-720.",
+                             "https://doi.org/10.1214/21-AOAS1502"
                              ))
 
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "Power Calculations for Replication Studies",
          author = c(person(given = "Leonhard", family = "Held", role = "aut"),
                     person(given = "Charlotte", family = "Micheloud", role = "aut")),
-         url = "https://arxiv.org/abs/2004.10814",
+         url = "https://doi.org/10.1214/21-STS828",
          journal = "Statistical Science",
-         note = "to appear",
+         volume = "37",
+         number = "3",
+         pages = "369--379",
          year = 2021,
          textVersion = paste("Micheloud, C., Held, L. (2021).",
                              "Power Calculations for Replication Studies.",
                              "Statistical Science.",
-                             "to appear.",
-                             "https://arxiv.org/abs/2004.10814"
+                             "37:369-379",
+                             "https://doi.org/10.1214/21-STS828"
                              ))
 
-citEntry(entry = "article",
+bibentry(bibtype = "article",
          title = "The assessment of intrinsic credibility and a new argument for p < 0.005",
          author = c(person(given = "Leonhard", family = "Held", role = "aut")),
          doi = "10.1098/rsos.181534",
