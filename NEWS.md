@@ -1,3 +1,10 @@
+# ReplicationSuccess 1.3.3
+
+- new functions `pEdgington`, `powerEdgington`, and `sampleSizeEdgington` to
+  design and analyze replication studies based on sum of *p*-values
+  (Edgington's) method (see <https://doi.org/10.1098/rsos.240149> for details)
+- updated some references
+
 # ReplicationSuccess 1.3.2
 
 - new maintainer Samuel Pawel

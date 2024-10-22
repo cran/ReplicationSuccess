@@ -1,8 +1,8 @@
 Type: Package
 Package: ReplicationSuccess
 Title: Design and Analysis of Replication Studies
-Version: 1.3.2
-Date: 2024-02-22
+Version: 1.3.3
+Date: 2024-10-22
 Authors@R: c(
     person("Leonhard", "Held", email = "leonhard.held@uzh.ch", role = "aut",
            comment = c(ORCID = "0000-0002-8686-5325")),
@@ -33,8 +33,8 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
-RoxygenNote: 7.2.3
-Packaged: 2024-02-22 14:27:05 UTC; sam
+RoxygenNote: 7.3.1
+Packaged: 2024-10-22 07:19:46 UTC; sam
 Author: Leonhard Held [aut] (<https://orcid.org/0000-0002-8686-5325>),
   Samuel Pawel [cre] (<https://orcid.org/0000-0003-2779-320X>),
   Charlotte Micheloud [aut] (<https://orcid.org/0000-0002-4995-4505>),
@@ -42,4 +42,4 @@ Author: Leonhard Held [aut] (<https://orcid.org/0000-0002-8686-5325>),
   Felix Hofmann [aut] (<https://orcid.org/0000-0002-3891-6239>)
 Maintainer: Samuel Pawel <samuel.pawel@uzh.ch>
 Repository: CRAN
-Date/Publication: 2024-02-22 17:20:07 UTC
+Date/Publication: 2024-10-22 08:00:12 UTC
